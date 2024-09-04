@@ -54,6 +54,7 @@ public class Main extends CharSelect {
         System.out.println("Would you like to continue? Y/N");
         String yesNo = input.nextLine();
         if(yesNo.equals("Y")) {
+            //Completes Character select
             System.out.println("You have chosen your character: " + ans);
         }
         else {
